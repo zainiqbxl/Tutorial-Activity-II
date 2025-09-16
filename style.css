@@ -1,0 +1,87 @@
+/* CSS Document */
+@charset "UTF-8";
+/* Color Scheme : #6C2AF5, #AC93F4, #F46EE5, #F59F84, #F46175*/
+/* The body tag style applies to all elements on the page */
+body {
+    /*background-color: rgb(0, 0, 0);*/
+    background: yellow; 
+    background: -moz-linear-gradient(left, red 0%, yellow 100%); 
+    background: -webkit-linear-gradient(left, red 0%, yellow 100%); 
+    background: -o-linear-gradient(left, red 0%, yellow 100%); 
+    background: linear-gradient(to right, red 0%,yellow 100%);
+    font-family: "Libertinus Keyboard", Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: blue;*/
+    background-color: LightSlateGrey;
+}
+
+/* The right-column ID style is floated right */
+#right-column {
+    float: right;
+    width: 600px;
+    height: 600px;
+    background-color: LightGray;
+}
+
+/* The left-column ID style is floated left */
+#left-column {
+    float: left;
+    width: 360px;
+    background-color: silver;
+    height: 600px;
+}
+/* Defining a style for a set of tags separated by commas applies the style to all tags */
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left: 15px;
+}
+
+#footer {
+    height: 80px;
+}
+
+#banner {
+    height: 120px;
+    background-color: SlateGrey;
+}
+
+/* Defining a style for a set of tags not separated by commas applies the style only to all tags within the preceding tag*/
+#banner h1 {
+    color: white;
+}
+
+/* Advanced Web design relies on class or ID styles, never tables */
+.box {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: rgb(73, 214, 54);
+    margin: 15px;
+    padding: 25px;
+    opacity: .5;
+    border-radius: 75px;
+}
+
+/* The following pseudo-class applies to the box class when in a hovered state */
+.box:hover {
+    opacity: 1;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+60,2ab0ed+100 */
+background: radial-gradient(ellipse at center,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 60%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+/* This clear class style terminates float */
+.clear {
+    clear: both;
+}
+
+
+
+
